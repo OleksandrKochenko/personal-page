@@ -1,3 +1,5 @@
 export const Layout = () => {
-  return <div>Hello World!</div>;
+  return (
+    <div style={{ color: '#fff', fontSize: 36 }}>! 🐲 Here be dragons 🐲 !</div>
+  );
 };
