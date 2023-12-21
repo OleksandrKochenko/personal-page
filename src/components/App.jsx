@@ -1,16 +1,19 @@
+import { useEffect, useState } from 'react';
+import { LineLoader } from './loaders/line-loader';
+import { Layout } from './layout';
+
 export const App = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timerId = setTimeout(() => setIsLoading(false), 12300);
+    return () => clearTimeout(timerId);
+  }, []);
+
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <>
+      {isLoading && <LineLoader />}
+      {!isLoading && <Layout />}
+    </>
   );
 };
