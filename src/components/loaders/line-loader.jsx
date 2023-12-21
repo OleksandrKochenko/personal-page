@@ -8,15 +8,15 @@ export const LineLoader = () => {
   useEffect(() => {
     const timer1 = setTimeout(() => {
       setCurrentText(text[1]);
-    }, 3350);
+    }, 3150);
 
     const timer2 = setTimeout(() => {
       setCurrentText(text[2]);
-    }, 6350);
+    }, 6150);
 
     const timer3 = setTimeout(() => {
       setCurrentText(text[3]);
-    }, 9350);
+    }, 9150);
 
     return () => {
       clearTimeout(timer1);
