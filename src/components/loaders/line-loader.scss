@@ -49,12 +49,18 @@
 }
 
 .loading-text {
-  font-size: 5vw;
+  font-size: 6vw;
   line-height: 64px;
   letter-spacing: 10px;
   margin-bottom: 32px;
   display: flex;
   justify-content: space-evenly;
+  @media screen and (min-width: 600px) {
+    font-size: 5vw;
+  }
+  @media screen and (min-width: 1600px) {
+    font-size: 4vw;
+  }
 }
 
 .loading-text span {
