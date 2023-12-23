@@ -27,9 +27,11 @@ export const LineLoader = () => {
   }, []);
 
   return (
-    <div className="loading_container">
-      <div className="loading-text">
-        <span>{currentText.toUpperCase()}</span>
+    <div className="wraper">
+      <div className="loading_container">
+        <div className="loading-text">
+          <span>{currentText.toUpperCase()}</span>
+        </div>
       </div>
     </div>
   );
