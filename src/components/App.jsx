@@ -14,7 +14,7 @@ export const App = () => {
   }, []);
 
   return isLoading ? (
-    <LineLoader />
+    <LineLoader handleScip={() => setIsLoading(false)} />
   ) : (
     <Routes>
       <Route path="/" element={<Layout />}>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './line-loader.scss';
 
-export const LineLoader = () => {
+export const LineLoader = ({ handleScip }) => {
   const text = ['alex', 'kochenko', 'full stack', 'developer'];
   const [currentText, setCurrentText] = useState(text[0]);
 
@@ -32,6 +32,9 @@ export const LineLoader = () => {
         <div className="loading-text">
           <span>{currentText.toUpperCase()}</span>
         </div>
+      </div>
+      <div className="skip" onClick={handleScip}>
+        skip
       </div>
     </div>
   );

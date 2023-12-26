@@ -2,9 +2,25 @@
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.skip {
+  position: fixed;
+  bottom: 6vh;
+  text-transform: uppercase;
+  padding-bottom: 2vh;
+  width: 8vw;
+  text-align: center;
+  letter-spacing: 5px;
+  &:hover {
+    cursor: pointer;
+    border-bottom: solid #fff 1px;
+  }
+}
+
 .loading_container {
   width: 100%;
   max-width: 520px;
@@ -12,6 +28,9 @@
   color: var(--color-main);
   position: relative;
   margin: 0 32px;
+  @media screen and (max-width: 800px) {
+    max-width: 90vw;
+  }
 }
 
 .loading_container:before {
