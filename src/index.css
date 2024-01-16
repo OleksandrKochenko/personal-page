@@ -2,6 +2,7 @@
 
 :root {
   --color-main: #fff;
+  --bgc-main: darkslategray;
 }
 
 body {
@@ -11,8 +12,12 @@ body {
     'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: darkslategray;
+  background-color: var(--bgc-main);
   color: var(--color-main);
+  min-width: 100%;
+  min-height: 100%;
+  padding: 0 3vw;
+  box-sizing: border-box;
 }
 
 code {
@@ -24,4 +29,13 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+svg.MuiSvgIcon-root {
+  fill: #fff;
 }

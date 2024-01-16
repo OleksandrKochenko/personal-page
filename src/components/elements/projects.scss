@@ -1,0 +1,66 @@
+.project_card {
+  max-width: 400px;
+  border-radius: 8px;
+  background-color: rgb(31 41 55);
+  border: 2px solid #999;
+  width: fit-content;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.535);
+  position: relative;
+}
+
+.card_title {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.tech_stack {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.github {
+  position: absolute;
+  top: 40px;
+  left: 10px;
+  padding: 10px;
+  &:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.clickable_area {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  top: calc(50% - 130px);
+  left: calc(50% - 130px);
+  &:hover {
+    background-color: #333;
+    box-shadow: 0 0 50px 30px #333;
+    opacity: 0.1;
+    cursor: pointer;
+  }
+}
+
+.card_description {
+  padding: 2px 8px 5px 8px;
+  margin: 0;
+  font-weight: 200;
+}
+
+.page_link {
+  width: 100%;
+  height: 100%;
+}

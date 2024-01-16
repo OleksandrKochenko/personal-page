@@ -1,0 +1,26 @@
+/* .page_wraper {
+  padding-left: 3vw;
+  padding-bottom: 4vh;
+} */
+
+svg.MuiSelect-icon.MuiSvgIcon-root {
+  width: 30px;
+  height: 30px;
+}
+
+div.MuiPaper-root {
+  background-color: var(--bgc-main);
+  color: var(--color-main);
+}
+
+.MuiSelect-standard {
+  border-bottom: 1px solid #fff;
+}
+
+.icon_filter {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(290deg)
+    brightness(108%) contrast(102%);
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}

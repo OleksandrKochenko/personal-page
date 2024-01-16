@@ -4,6 +4,10 @@ import { Layout } from './layout';
 import { Route, Routes } from 'react-router-dom';
 
 const HomePage = lazy(() => import('./home-page'));
+const ProjectsPage = lazy(() => import('./projects-page'));
+const ServicesPage = lazy(() => import('./services-page'));
+const CertificatesPage = lazy(() => import('./certificates-page'));
+const InterestsPage = lazy(() => import('./interests-page'));
 
 export const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -19,6 +23,10 @@ export const App = () => {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/certificates" element={<CertificatesPage />} />
+        <Route path="/interests" element={<InterestsPage />} />
       </Route>
     </Routes>
   );

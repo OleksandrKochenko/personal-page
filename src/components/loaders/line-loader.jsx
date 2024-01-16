@@ -8,15 +8,15 @@ export const LineLoader = ({ handleScip }) => {
   useEffect(() => {
     const timer1 = setTimeout(() => {
       setCurrentText(text[1]);
-    }, 3150);
+    }, 3050);
 
     const timer2 = setTimeout(() => {
       setCurrentText(text[2]);
-    }, 6150);
+    }, 6050);
 
     const timer3 = setTimeout(() => {
       setCurrentText(text[3]);
-    }, 9150);
+    }, 9050);
 
     return () => {
       clearTimeout(timer1);
