@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkpersonal_page=self.webpackChunkpersonal_page||[]).push([[798],{7798:function(e,n,t){t.r(n);var s=t(184);n.default=function(){return(0,s.jsx)("div",{style:{color:"#fff",fontSize:"30px",width:"100vw",height:"300px",display:"flex",justifyContent:"center",alignItems:"center"},children:"[ \ud83d\udc32 Interests' dragons \ud83d\udc32 ]"})}}}]);
-//# sourceMappingURL=798.f9bc1bff.chunk.js.map
