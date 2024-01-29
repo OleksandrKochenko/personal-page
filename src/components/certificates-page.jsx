@@ -5,7 +5,7 @@ const CertificatesPage = () => {
         color: '#fff',
         fontSize: '30px',
         //height: '100vh',
-        width: '100vw',
+        width: '100%',
         height: '300px',
         display: 'flex',
         justifyContent: 'center',

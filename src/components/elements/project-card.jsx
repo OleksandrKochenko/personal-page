@@ -1,41 +1,39 @@
 import Tooltip from './tooltip';
-import html from '../../img/html5-01-svgrepo-com.svg';
-import css from '../../img/css3-01-svgrepo-com.svg';
-import js from '../../img/java-script.svg';
-import git from '../../img/github-142-svgrepo-com.svg';
-import tetris from '../../img/tetris.jpg';
 import './projects.scss';
 
 export const ProjectCard = ({ project }) => {
   return (
     <div className="project_card">
-      <h3 className="card_title">Tetris Game</h3>
-      <img src={tetris} alt="Tetris Game" width={400} height={400} />
-      <div className="tech_stack">
-        <Tooltip text="HTML">
-          <img src={html} alt="html" className="icon_filter" />
-        </Tooltip>
-        <Tooltip text="CSS">
-          <img src={css} alt="css" className="icon_filter" />
-        </Tooltip>
-        <Tooltip text="JavaScript">
-          <img src={js} alt="js" className="icon_filter" />
-        </Tooltip>
+      <h3 className="card_title">
+        <a href={project.appLink} target="_blank" rel="noreferrer">
+          {project.title}
+        </a>
+      </h3>
+      <img src={project.img} alt={project.title} width={400} height={400} />
+      <div className="tech_stack_wraper">
+        <div className="tech_stack">
+          {project.techStack.map((el, idx) => (
+            <Tooltip key={idx} text={el.name}>
+              <img src={el.img} alt={el.name} className="icon_filter" />
+            </Tooltip>
+          ))}
+        </div>
+        <div className="tech_stack_tale" />
       </div>
       <div className="github">
         <Tooltip text="View code">
-          <a
-            href="https://github.com/OleksandrKochenko/tetris"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={git} alt="git-hub" className="icon_filter" />
+          <a href={project.codeLink} target="_blank" rel="noreferrer">
+            <img
+              src="https://res.cloudinary.com/dvloxectq/image/upload/v1706436500/PersonalPage/icons/github-142-svgrepo-com_asfb0r.svg"
+              alt="git-hub"
+              className="icon_filter"
+            />
           </a>
         </Tooltip>
       </div>
       <div className="clickable_area">
         <a
-          href="https://oleksandrkochenko.github.io/tetris/"
+          href={project.appLink}
           target="_blank"
           rel="noreferrer"
           className="page_link"
@@ -43,11 +41,7 @@ export const ProjectCard = ({ project }) => {
           {''}
         </a>
       </div>
-      <p className="card_description">
-        Simple implementation of wellknown puzzle game. There are 7 levels with
-        different falling down speed, pause and start buttons, current and total
-        score.
-      </p>
+      <p className="card_description">{project.description}</p>
     </div>
   );
 };

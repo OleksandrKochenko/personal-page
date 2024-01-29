@@ -24,3 +24,10 @@ div.MuiPaper-root {
   height: 30px;
   margin-bottom: 10px;
 }
+
+.projects_list {
+  display: flex;
+  gap: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}

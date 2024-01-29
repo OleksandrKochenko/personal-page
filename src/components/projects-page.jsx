@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { MenuItem, Select } from '@mui/material';
-import './pages.scss';
 import { ProjectCard } from './elements/project-card';
+import { projects } from 'data/projects-data';
+import './pages.scss';
 
 const ProjectsPage = () => {
   const [projectsType, setProjectsType] = useState('pet');
@@ -34,7 +35,13 @@ const ProjectsPage = () => {
         </Select>
       </div>
       <h2 style={{ color: 'chocolate' }}>Under construction</h2>
-      <ProjectCard />
+      <ul className="projects_list">
+        {projects.map(project => (
+          <li key={project.id}>
+            <ProjectCard project={project} />
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
