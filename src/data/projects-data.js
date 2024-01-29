@@ -17,7 +17,10 @@ export const projects = [
         name: 'CSS',
         img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706436460/PersonalPage/icons/css3-01-svgrepo-com_xn9ptp.svg',
       },
-      { name: 'JavaScript', img: '' },
+      {
+        name: 'JavaScript',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706561749/PersonalPage/icons/js-svgrepo-com_1_pomzf3.svg',
+      },
     ],
   },
   {
