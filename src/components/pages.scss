@@ -27,7 +27,7 @@ div.MuiPaper-root {
 
 .projects_list {
   display: flex;
-  gap: 2vw;
+  gap: max(2vw, 2vh);
   flex-wrap: wrap;
   justify-content: center;
 }

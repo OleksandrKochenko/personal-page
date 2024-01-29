@@ -1,5 +1,5 @@
 .project_card {
-  max-width: 400px;
+  max-width: 360px;
   border-radius: 8px;
   background-color: rgb(31 41 55);
   border: 2px solid #999;
@@ -19,6 +19,7 @@
     color: chocolate;
   }
 }
+
 .tech_stack_wraper {
   position: absolute;
   top: 43px;
@@ -75,6 +76,7 @@
   font-weight: 200;
   height: 58px;
   overflow: hidden;
+  font-size: 15px;
 }
 
 .page_link {

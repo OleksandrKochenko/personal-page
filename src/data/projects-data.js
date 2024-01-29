@@ -51,4 +51,32 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 'f85e1f78d33d',
+    title: 'Image Finder',
+    type: 'PET',
+    description:
+      'Finds images by query. Full size image view, navigation through images, load more images. Responsive design',
+    appLink: 'https://oleksandrkochenko.github.io/goit-react-hw-04-images//',
+    codeLink: 'https://github.com/OleksandrKochenko/goit-react-hw-04-images',
+    img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706565311/PersonalPage/images/ImageFinder2_ylkrrl.jpg',
+    techStack: [
+      {
+        name: 'HTML',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706436479/PersonalPage/icons/html5-01-svgrepo-com_hmlnc4.svg',
+      },
+      {
+        name: 'CSS',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706436460/PersonalPage/icons/css3-01-svgrepo-com_xn9ptp.svg',
+      },
+      {
+        name: 'JavaScript',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706561749/PersonalPage/icons/js-svgrepo-com_1_pomzf3.svg',
+      },
+      {
+        name: 'React',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706562092/PersonalPage/icons/react-svgrepo-com_lotxms.svg',
+      },
+    ],
+  },
 ];

@@ -9,7 +9,7 @@ export const ProjectCard = ({ project }) => {
           {project.title}
         </a>
       </h3>
-      <img src={project.img} alt={project.title} width={400} height={400} />
+      <img src={project.img} alt={project.title} width={360} height={360} />
       <div className="tech_stack_wraper">
         <div className="tech_stack">
           {project.techStack.map((el, idx) => (
