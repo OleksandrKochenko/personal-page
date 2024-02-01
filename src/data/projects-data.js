@@ -19,7 +19,7 @@ export const projects = [
       },
       {
         name: 'JavaScript',
-        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706561749/PersonalPage/icons/js-svgrepo-com_1_pomzf3.svg',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706721894/PersonalPage/icons/Asset_3_vjtfyt.svg',
       },
     ],
   },
@@ -43,7 +43,7 @@ export const projects = [
       },
       {
         name: 'JavaScript',
-        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706561749/PersonalPage/icons/js-svgrepo-com_1_pomzf3.svg',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706721894/PersonalPage/icons/Asset_3_vjtfyt.svg',
       },
       {
         name: 'React',
@@ -71,7 +71,7 @@ export const projects = [
       },
       {
         name: 'JavaScript',
-        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706561749/PersonalPage/icons/js-svgrepo-com_1_pomzf3.svg',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706721894/PersonalPage/icons/Asset_3_vjtfyt.svg',
       },
       {
         name: 'React',
