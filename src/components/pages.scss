@@ -34,6 +34,7 @@ div.MuiPaper-root {
 
 .certificates_gallery {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
   padding: 0;
@@ -46,6 +47,10 @@ div.MuiPaper-root {
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
   width: fit-content;
   height: 360px;
+  @media (max-width: 600px) {
+    width: 360px;
+    height: fit-content;
+  }
 }
 
 .certificates_gallery_img {
