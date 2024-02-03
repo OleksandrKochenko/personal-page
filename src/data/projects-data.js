@@ -99,7 +99,7 @@ export const projects = [
       },
       {
         name: 'MongoDB',
-        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706904723/PersonalPage/icons/mongodb-svgrepo-com_dzfyv9.svg',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706989777/PersonalPage/icons/Asset_3_gjzu4w.svg',
       },
       {
         name: 'Docker',
