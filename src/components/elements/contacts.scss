@@ -1,0 +1,51 @@
+.modal_whatsapp {
+  width: 400px;
+  height: 450px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-bottom: 1px solid transparent;
+}
+.contacts_item {
+  padding: 5px;
+  width: fit-content;
+  border-bottom: 2px solid transparent;
+  margin: 10px 0;
+  &:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #000;
+  }
+}
+.contact_link {
+  display: flex;
+  align-items: center;
+  & > span {
+    margin-left: 10px;
+  }
+}
+.contacts_name {
+  margin: 0;
+  padding: 0;
+}
+.contacts_tooltip {
+  padding: 2px;
+  margin: 0;
+  font-size: 16px;
+}
+.contacts_item_CV {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.CV_download {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0 10px;
+  box-shadow: 6px 6px 20px rgba(30, 30, 30, 0.535);
+  &:hover {
+    transform: translate(1px, 1px);
+  }
+}

@@ -112,7 +112,7 @@ export const projects = [
     ],
   },
   {
-    id: 'de99189afe67',
+    id: '0b7357cb849a',
     title: 'Recipes API',
     type: 'PET',
     scope: 'BACK',
