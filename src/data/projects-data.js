@@ -111,4 +111,33 @@ export const projects = [
       },
     ],
   },
+  {
+    id: 'de99189afe67',
+    title: 'Recipes API',
+    type: 'PET',
+    scope: 'BACK',
+    description:
+      'REST API for Recipes application, that provides CRUD operations for recipes and user authorization',
+    appLink: 'https://api-recipes-sigma.vercel.app/',
+    codeLink: 'https://github.com/OleksandrKochenko/evvent-ta-recipes/',
+    img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1707649015/PersonalPage/images/Api_Recipes_qq8kai.png',
+    techStack: [
+      {
+        name: 'NodeJs',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706904724/PersonalPage/icons/node-16-svgrepo-com_la8ibe.svg',
+      },
+      {
+        name: 'MongoDB',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706989777/PersonalPage/icons/Asset_3_gjzu4w.svg',
+      },
+      {
+        name: 'TypeScript',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1707652230/PersonalPage/icons/typescript-16-svgrepo-com_k2svcr.svg',
+      },
+      {
+        name: 'Vercel',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706904723/PersonalPage/icons/vercel-logo-svgrepo-com_xobmio.svg',
+      },
+    ],
+  },
 ];
