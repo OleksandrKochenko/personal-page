@@ -9,8 +9,8 @@ export const About = () => {
       <div className="about">
         <div className="about_info">
           <p>
-            Responsibility, efficiency and attention for details are my main
-            strength. <br />I have great communication skills, analytical mind,
+            Responsibility, efficiency and attention to details are my main
+            strengths. <br />I have great communication skills, analytical mind,
             organizational and project management skills.
           </p>
           <p>
