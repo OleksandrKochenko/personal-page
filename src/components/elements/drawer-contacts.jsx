@@ -1,6 +1,5 @@
 import { Drawer } from '@mui/material';
-import { Contacts } from './contscts';
-// import './drawer.menu.scss';
+import { Contacts } from './contacts';
 
 export const DrawerContacts = ({ open, onClose }) => {
   return (

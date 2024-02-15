@@ -12,7 +12,7 @@ const InterestsPage = () => {
         alignItems: 'center',
       }}
     >
-      [ 🐲 Interests' dragons 🐲 ]
+      [ 🐲 Here be dragons 🐲 ]
     </div>
   );
 };

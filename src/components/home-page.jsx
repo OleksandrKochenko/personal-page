@@ -1,19 +1,12 @@
+import { About } from './elements/about';
+import { TechStack } from './elements/tech-stack';
+
 const HomePage = () => {
   return (
-    <div
-      style={{
-        color: '#fff',
-        fontSize: '30px',
-        //height: '100vh',
-        width: '100%',
-        height: '300px',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      [ 🐲 Here be dragons 🐲 ]
-    </div>
+    <>
+      <About />
+      <TechStack />
+    </>
   );
 };
 

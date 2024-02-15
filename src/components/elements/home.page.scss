@@ -1,0 +1,115 @@
+.section_wraper {
+  margin-bottom: 60px;
+}
+.section_title {
+  background-color: chocolate;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+.tech_list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  @media screen and (max-width: 1000px) {
+    justify-content: center;
+  }
+}
+.tech_item {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  margin: 30px 60px;
+  align-items: center;
+  height: 80px;
+  justify-content: space-between;
+  @media screen and (max-width: 1000px) {
+    margin: 15px 20px;
+  }
+  & > span {
+    width: 60px;
+    overflow: visible;
+    white-space: nowrap;
+    text-align: center;
+  }
+}
+.full_btn {
+  margin: 0 56px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  color: transparent;
+  box-sizing: border-box;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+    color: #fff;
+  }
+}
+@keyframes change_bgc {
+  0% {
+    background-color: #fff;
+  }
+  50% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+.blinker {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: #fff;
+  top: 4px;
+  left: 16.5px;
+  z-index: 0;
+  border-radius: 50%;
+  animation-name: change_bgc;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+.twist_arrow {
+  transform: rotate(0.25turn);
+}
+.img_filter {
+  filter: invert(100%) brightness(108%) contrast(102%);
+}
+.about {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+}
+.about_info {
+  width: 70%;
+  font-size: 20px;
+  padding-right: 30px;
+  line-height: 1.5;
+}
+.avatar {
+  height: auto;
+  width: 100%;
+}
+.avatar_wraper {
+  overflow: hidden;
+  width: 120px;
+  height: 120px;
+  margin: 5px;
+  border-radius: 50%;
+  @media screen and (min-width: 1000px) {
+    width: 190px;
+    height: 190px;
+  }
+}
