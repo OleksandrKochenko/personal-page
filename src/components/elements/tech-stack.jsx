@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ArrowCircleLeft, ArrowCircleRight } from '@mui/icons-material';
+import { ChevronsDown, ChevronsUp } from 'react-feather';
 import techStack from '../../data/tech-stack-data';
 import './home.page.scss';
 
@@ -9,7 +9,7 @@ export const TechStack = () => {
   return (
     <div className="section_wraper">
       <h3 className="section_title">Technology stack</h3>
-      <ul className="tech_list" style={{ height: expanded && 'fit-content' }}>
+      <ul className={`tech_list ${expanded ? 'fit_content' : ''}`}>
         {techStack.map((el, idx) => (
           <li className="tech_item" key={idx}>
             <img src={el.icon} alt={el.title} width={60} height={60} />
@@ -17,35 +17,24 @@ export const TechStack = () => {
           </li>
         ))}
       </ul>
-      <p
+      <div
         className="full_btn"
         onClick={() => {
           setExpanded(!expanded);
         }}
       >
-        <p className="blinker"></p>
         {expanded ? (
           <>
-            <span className="twist_arrow">
-              <ArrowCircleLeft
-                fontSize="small"
-                style={{ fill: 'chocolate', zIndex: 1 }}
-              />
-            </span>
-            <span>View less</span>
+            <ChevronsUp size={28} className="link_arrow" />
+            <span className="link_text">View less</span>
           </>
         ) : (
           <>
-            <span className="twist_arrow">
-              <ArrowCircleRight
-                fontSize="small"
-                style={{ fill: 'chocolate', zIndex: 1 }}
-              />
-            </span>
-            <span>View more</span>
+            <ChevronsDown size={28} className="link_arrow" />
+            <span className="link_text">View more</span>
           </>
         )}
-      </p>
+      </div>
     </div>
   );
 };

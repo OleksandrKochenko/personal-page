@@ -1,8 +1,19 @@
+import { useState } from 'react';
+import { ChevronsLeft } from 'react-feather';
+import { DrawerContacts } from './drawer-contacts';
+import avatar from '../../img/photo_cv.jpg';
 import './home.page.scss';
 
-import avatar from '../../img/photo_cv.jpg';
-
 export const About = () => {
+  const [contactsSidebar, setContactsSidebar] = useState(false);
+
+  const openContacts = () => {
+    setContactsSidebar(true);
+  };
+  const closeContacts = () => {
+    setContactsSidebar(false);
+  };
+
   return (
     <div className="section_wraper">
       <h3 className="section_title">About me</h3>
@@ -24,11 +35,16 @@ export const About = () => {
             task-responsibility skills, as well as good experience in managing
             projects, meeting deadlines and solving problem situations.
           </p>
+          <p className="get_contacts" onClick={openContacts}>
+            <ChevronsLeft size={28} className="link_arrow" />
+            <span className="link_text">Get in touch</span>
+          </p>
         </div>
         <div className="avatar_wraper">
           <img className="avatar" alt="Alex Kochenko" src={avatar} />
         </div>
       </div>
+      <DrawerContacts open={contactsSidebar} onClose={closeContacts} />
     </div>
   );
 };
