@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/personal-page/static/css/main.4ad16a70.css",
-    "main.js": "/personal-page/static/js/main.51afb456.js",
+    "main.js": "/personal-page/static/js/main.c32eb07f.js",
     "static/css/724.298100b4.chunk.css": "/personal-page/static/css/724.298100b4.chunk.css",
     "static/js/724.a8291f3f.chunk.js": "/personal-page/static/js/724.a8291f3f.chunk.js",
-    "static/css/889.2e122bd3.chunk.css": "/personal-page/static/css/889.2e122bd3.chunk.css",
-    "static/js/889.5d1e9ddf.chunk.js": "/personal-page/static/js/889.5d1e9ddf.chunk.js",
+    "static/css/889.9f6a03ac.chunk.css": "/personal-page/static/css/889.9f6a03ac.chunk.css",
+    "static/js/889.711d672f.chunk.js": "/personal-page/static/js/889.711d672f.chunk.js",
     "static/js/623.0ee597cc.chunk.js": "/personal-page/static/js/623.0ee597cc.chunk.js",
-    "static/css/603.e0a81dd0.chunk.css": "/personal-page/static/css/603.e0a81dd0.chunk.css",
-    "static/js/603.6a6a849a.chunk.js": "/personal-page/static/js/603.6a6a849a.chunk.js",
+    "static/css/441.94d1c7e9.chunk.css": "/personal-page/static/css/441.94d1c7e9.chunk.css",
+    "static/js/441.15b6b07e.chunk.js": "/personal-page/static/js/441.15b6b07e.chunk.js",
     "static/js/798.3f90121b.chunk.js": "/personal-page/static/js/798.3f90121b.chunk.js",
     "static/js/55.002fd88b.chunk.js": "/personal-page/static/js/55.002fd88b.chunk.js",
-    "static/js/893.5ccb92d2.chunk.js": "/personal-page/static/js/893.5ccb92d2.chunk.js",
     "static/media/whatsap-qr.jpg": "/personal-page/static/media/whatsap-qr.3e842ebd0eb80fb9bb8b.jpg",
     "static/media/photo_cv.jpg": "/personal-page/static/media/photo_cv.d426fa9d6571677407c6.jpg",
     "static/media/postgresql-svgrepo-com.svg": "/personal-page/static/media/postgresql-svgrepo-com.9aed68683d15cfc3c3fd8ddf1d89ff4e.svg",
@@ -43,20 +42,19 @@
     "static/media/tailwind-svgrepo-com.svg": "/personal-page/static/media/tailwind-svgrepo-com.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/vercel-logo-svgrepo-com.svg": "/personal-page/static/media/vercel-logo-svgrepo-com.a683396ea86d714691fe74275340f219.svg",
     "main.4ad16a70.css.map": "/personal-page/static/css/main.4ad16a70.css.map",
-    "main.51afb456.js.map": "/personal-page/static/js/main.51afb456.js.map",
+    "main.c32eb07f.js.map": "/personal-page/static/js/main.c32eb07f.js.map",
     "724.298100b4.chunk.css.map": "/personal-page/static/css/724.298100b4.chunk.css.map",
     "724.a8291f3f.chunk.js.map": "/personal-page/static/js/724.a8291f3f.chunk.js.map",
-    "889.2e122bd3.chunk.css.map": "/personal-page/static/css/889.2e122bd3.chunk.css.map",
-    "889.5d1e9ddf.chunk.js.map": "/personal-page/static/js/889.5d1e9ddf.chunk.js.map",
+    "889.9f6a03ac.chunk.css.map": "/personal-page/static/css/889.9f6a03ac.chunk.css.map",
+    "889.711d672f.chunk.js.map": "/personal-page/static/js/889.711d672f.chunk.js.map",
     "623.0ee597cc.chunk.js.map": "/personal-page/static/js/623.0ee597cc.chunk.js.map",
-    "603.e0a81dd0.chunk.css.map": "/personal-page/static/css/603.e0a81dd0.chunk.css.map",
-    "603.6a6a849a.chunk.js.map": "/personal-page/static/js/603.6a6a849a.chunk.js.map",
+    "441.94d1c7e9.chunk.css.map": "/personal-page/static/css/441.94d1c7e9.chunk.css.map",
+    "441.15b6b07e.chunk.js.map": "/personal-page/static/js/441.15b6b07e.chunk.js.map",
     "798.3f90121b.chunk.js.map": "/personal-page/static/js/798.3f90121b.chunk.js.map",
-    "55.002fd88b.chunk.js.map": "/personal-page/static/js/55.002fd88b.chunk.js.map",
-    "893.5ccb92d2.chunk.js.map": "/personal-page/static/js/893.5ccb92d2.chunk.js.map"
+    "55.002fd88b.chunk.js.map": "/personal-page/static/js/55.002fd88b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ad16a70.css",
-    "static/js/main.51afb456.js"
+    "static/js/main.c32eb07f.js"
   ]
 }
