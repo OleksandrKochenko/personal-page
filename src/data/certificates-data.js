@@ -9,6 +9,15 @@ export const certificates = [
     width: 1239,
   },
   {
+    id: '3t5edy6a7f26',
+    title: 'CELPIP Certificate',
+    preview:
+      'https://res.cloudinary.com/dvloxectq/image/upload/v1730165055/Certificates/thumb/Celpip_Test_2__cmprs_agbeiu.jpg',
+    img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1730165081/Certificates/Celpip_Test_2_z4uq18.jpg',
+    height: 2000,
+    width: 1545,
+  },
+  {
     id: '4f2fe0ca7f26',
     title: 'Grade English Certificate',
     preview:

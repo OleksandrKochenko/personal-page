@@ -20,17 +20,19 @@ export const ProjectCard = ({ project }) => {
         </div>
         <div className="tech_stack_tale" />
       </div>
-      <div className="github">
-        <Tooltip text="View code">
-          <a href={project.codeLink} target="_blank" rel="noreferrer">
-            <img
-              src="https://res.cloudinary.com/dvloxectq/image/upload/v1706436500/PersonalPage/icons/github-142-svgrepo-com_asfb0r.svg"
-              alt="git-hub"
-              className="icon_filter"
-            />
-          </a>
-        </Tooltip>
-      </div>
+      {project.codeLink && (
+        <div className="github">
+          <Tooltip text="View code">
+            <a href={project.codeLink} target="_blank" rel="noreferrer">
+              <img
+                src="https://res.cloudinary.com/dvloxectq/image/upload/v1706436500/PersonalPage/icons/github-142-svgrepo-com_asfb0r.svg"
+                alt="git-hub"
+                className="icon_filter"
+              />
+            </a>
+          </Tooltip>
+        </div>
+      )}
       <div className="clickable_area">
         <a
           href={project.appLink}

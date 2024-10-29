@@ -1,46 +1,65 @@
-import { Gallery, Item } from 'react-photoswipe-gallery';
+import { useState } from 'react';
+import { Modal } from '@mui/material';
 import { certificates } from 'data/certificates-data';
-import 'photoswipe/dist/photoswipe.css';
 import './pages.scss';
 
 const CertificatesPage = () => {
   const vw = window.innerWidth;
   const vh = window.innerHeight;
+
+  const [open, setOpen] = useState(false);
+  const [currentImg, setCurrentImg] = useState(null);
+  const handleOpen = current => {
+    setCurrentImg(current);
+    setOpen(true);
+  };
+  const handleClose = () => setOpen(false);
+
   return (
-    <Gallery options={{ zoom: false }}>
-      <div className="certificates_gallery">
-        {certificates.map(item => (
-          <Item
-            key={item.id}
-            thumbnail={item.preview}
-            original={item.img}
+    <div className="certificates_gallery">
+      {certificates.map(item => (
+        <div
+          className="certificates_gallery_item"
+          key={item.id}
+          id={item.id}
+          onClick={
+            vw > 600
+              ? e =>
+                  handleOpen(
+                    certificates.find(el => el.id === e.currentTarget.id)
+                  )
+              : () => {}
+          }
+        >
+          <img
+            className="certificates_gallery_img"
+            src={item.preview}
             alt={item.title}
-            width={
-              item.height < item.width
-                ? vw * 0.8
-                : vh * 0.9 * (item.width / item.height)
-            }
-            height={
-              item.height < item.width
-                ? vw * 0.8 * (item.height / item.width)
-                : vh * 0.9
-            }
-          >
-            {({ ref, open }) => (
-              <div className="certificates_gallery_item">
-                <img
-                  className="certificates_gallery_img"
-                  src={item.preview}
-                  alt={item.title}
-                  ref={ref}
-                  onClick={open}
-                />
-              </div>
-            )}
-          </Item>
-        ))}
-      </div>
-    </Gallery>
+          />
+        </div>
+      ))}
+      <Modal open={open} onClose={handleClose}>
+        <div className="modal" onClick={handleClose}>
+          {currentImg ? (
+            <img
+              src={currentImg.img}
+              width={
+                currentImg.height < currentImg.width
+                  ? vw * 0.7
+                  : vh * 0.9 * (currentImg.width / currentImg.height)
+              }
+              height={
+                currentImg.height < currentImg.width
+                  ? vw * 0.7 * (currentImg.height / currentImg.width)
+                  : vh * 0.9
+              }
+            />
+          ) : (
+            'Something wrong, try again'
+          )}
+        </div>
+      </Modal>
+    </div>
   );
 };
 

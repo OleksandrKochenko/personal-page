@@ -1,5 +1,65 @@
 export const projects = [
   {
+    id: '0XP3WQ07VVMC',
+    title: 'UCA "Tryzub" Web Site',
+    type: 'COM',
+    scope: 'FULL',
+    description:
+      'Full Stack project of a full cycle development and deployment, including frontend, backend, database and image storage setup',
+    appLink: 'https://www.ucat.ca/',
+    codeLink: '',
+    img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1730166994/PersonalPage/images/try_qnptxl.jpg',
+    techStack: [
+      {
+        name: 'React',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706562092/PersonalPage/icons/react-svgrepo-com_lotxms.svg',
+      },
+
+      {
+        name: 'Tailwind',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1730167535/PersonalPage/icons/tailwind_votqrc.svg',
+      },
+      {
+        name: 'NodeJs',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706904724/PersonalPage/icons/node-16-svgrepo-com_la8ibe.svg',
+      },
+      {
+        name: 'MongoDB',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706989777/PersonalPage/icons/Asset_3_gjzu4w.svg',
+      },
+
+      {
+        name: 'Vercel',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706904723/PersonalPage/icons/vercel-logo-svgrepo-com_xobmio.svg',
+      },
+    ],
+  },
+  {
+    id: 'DA2GA3DK88ZQ',
+    title: 'Multicook Brandon Landing Page',
+    type: 'COM',
+    scope: 'FRONT',
+    description:
+      'The Landing Page for Multicook franchise branch. Frontend project with SEO optimization and Google Workspace setup ',
+    appLink: 'https://www.multicookbrandon.ca/',
+    codeLink: '',
+    img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1730168330/PersonalPage/images/multicook2_ddi3cq.jpg',
+    techStack: [
+      {
+        name: 'React',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706562092/PersonalPage/icons/react-svgrepo-com_lotxms.svg',
+      },
+      {
+        name: 'CSS',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706436460/PersonalPage/icons/css3-01-svgrepo-com_xn9ptp.svg',
+      },
+      {
+        name: 'Vercel',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706904723/PersonalPage/icons/vercel-logo-svgrepo-com_xobmio.svg',
+      },
+    ],
+  },
+  {
     id: 'a6749e4f8fd8',
     title: 'Tetris Game',
     type: 'PET',
