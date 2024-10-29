@@ -43,6 +43,7 @@ const CertificatesPage = () => {
           {currentImg ? (
             <img
               src={currentImg.img}
+              alt={currentImg.title}
               width={
                 currentImg.height < currentImg.width
                   ? vw * 0.7
