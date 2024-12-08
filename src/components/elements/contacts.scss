@@ -27,6 +27,12 @@
 .contacts_name {
   margin: 0;
   padding: 0;
+  @media screen and (max-width: 650px) {
+    padding-left: 10px;
+    & + p {
+      padding-left: 10px;
+    }
+  }
 }
 .contacts_tooltip {
   padding: 2px;

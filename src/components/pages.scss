@@ -74,3 +74,42 @@ div.MuiPaper-root {
   border: none;
   cursor: zoom-out;
 }
+
+.services_block {
+  margin-bottom: 44px;
+  @media screen and (max-width: 650px) {
+    margin-bottom: 28px;
+  }
+}
+.services_title.section_title {
+  width: fit-content;
+  height: auto;
+  @media screen and (max-width: 650px) {
+    font-size: 16px;
+    padding: 8px 5px;
+  }
+}
+.services_icon {
+  font-size: 96px;
+  @media screen and (max-width: 650px) {
+    display: none;
+  }
+}
+.services_item {
+  padding: 8px 0;
+  @media screen and (max-width: 650px) {
+    padding: 5px 0;
+  }
+}
+.services_content {
+  display: flex;
+  align-items: center;
+}
+.services_list {
+  margin-left: 30px;
+  font-size: 20px;
+  @media screen and (max-width: 650px) {
+    margin: 0;
+    font-size: inherit;
+  }
+}

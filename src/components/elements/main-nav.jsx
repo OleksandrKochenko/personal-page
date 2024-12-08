@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { IconButton, Tooltip } from '@mui/material';
-import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
+import { Icon } from '@iconify/react';
 import useWindowSizes from 'components/hooks/useWindowSizes';
 import { DrawerMenu } from './drawer-menu';
 import { MenuList } from './menu-list';
@@ -36,7 +36,7 @@ export const MainNav = () => {
         <MenuList />
       ) : (
         <IconButton onClick={openDrawer}>
-          <MenuRoundedIcon />
+          <Icon icon={'proicons:menu'} className="menu-icon" />
         </IconButton>
       )}
 

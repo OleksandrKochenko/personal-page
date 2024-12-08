@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { ChevronsLeft } from 'react-feather';
 import { DrawerContacts } from './drawer-contacts';
-import avatar from '../../img/photo_cv.jpg';
 import './home.page.scss';
 
 export const About = () => {
@@ -20,29 +19,29 @@ export const About = () => {
       <div className="about">
         <div className="about_info">
           <p>
-            Responsibility, efficiency and attention to details are my main
-            strengths. <br />I have great communication skills, analytical mind,
-            organizational and project management skills.
+            I bring a strong sense of responsibility, efficiency, and attention
+            to detail to every project. With strong communication, analytical,
+            organizational, and project management skills, I offer a
+            well-rounded approach to every task and team environment.
           </p>
           <p>
-            I am a Full Stack developer with proficiency in the most modern
-            frontend and backend tools and technologies. <br />
-            Previously, I changed my field of activity as I strive to constantly
-            develop and learn new stuff.
+            As a Full Stack Developer, I have expertise in the latest front-end
+            and back-end technologies, allowing me to build dynamic, modern, and
+            efficient solutions.
           </p>
           <p>
-            My previous work background gives me strong self-organization,
-            task-responsibility skills, as well as good experience in managing
-            projects, meeting deadlines and solving problem situations.
+            My work experience has given me strong self-organization skills, a
+            reliable sense of responsibility, and practical experience in
+            managing projects, meeting deadlines, and solving challenges.
           </p>
           <p className="get_contacts" onClick={openContacts}>
             <ChevronsLeft size={28} className="link_arrow" />
             <span className="link_text">Get in touch</span>
           </p>
         </div>
-        <div className="avatar_wraper">
+        {/* <div className="avatar_wraper">
           <img className="avatar" alt="Alex Kochenko" src={avatar} />
-        </div>
+        </div> */}
       </div>
       <DrawerContacts open={contactsSidebar} onClose={closeContacts} />
     </div>

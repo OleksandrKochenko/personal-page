@@ -1,5 +1,8 @@
 .section_wraper {
   margin: 30px 0;
+  @media screen and (max-width: 650px) {
+    margin: 0;
+  }
 }
 .section_title {
   background-color: chocolate;
@@ -11,6 +14,13 @@
   padding: 10px;
   box-sizing: border-box;
   text-transform: uppercase;
+  @media screen and (max-width: 650px) {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 12px 0;
+  }
 }
 .tech_list {
   display: flex;
@@ -27,6 +37,7 @@
   }
   @media screen and (max-width: 1000px) {
     justify-content: center;
+    max-height: 326px;
   }
 }
 
@@ -52,7 +63,7 @@
 .get_contacts {
   margin: 0 76px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   font-size: 20px;
   width: fit-content;
   &:hover {
@@ -81,12 +92,24 @@
   display: flex;
   align-items: center;
   margin-left: 60px;
+  @media screen and (max-width: 650px) {
+    margin: 0;
+    padding-left: 10px;
+  }
 }
 .about_info {
   width: 70%;
   font-size: 20px;
   padding-right: 30px;
   line-height: 1.5;
+  @media screen and (max-width: 650px) {
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+    & > p {
+      margin: 3px 0;
+    }
+  }
 }
 .avatar {
   height: auto;
@@ -108,11 +131,17 @@
   padding-left: 20px;
   list-style-type: disc;
   color: chocolate;
+  @media screen and (max-width: 650px) {
+    margin: 0;
+  }
 }
 .service_item {
   font-size: 20px;
   line-height: 1.5;
   color: #fff;
+  @media screen and (max-width: 650px) {
+    font-size: 16px;
+  }
 }
 .section_link {
   margin: 0 76px;
@@ -126,11 +155,22 @@
   align-items: center;
 }
 .link_text {
-  align-self: baseline;
-  padding-top: 1px;
+  align-self: center;
+  // padding-top: 1px;
 }
 .link_arrow {
   animation-name: change_bgc;
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
+}
+.full_btn,
+.section_link {
+  @media screen and (max-width: 650px) {
+    margin: 0 0 0 10px;
+  }
+}
+.about_info > .get_contacts {
+  @media screen and (max-width: 650px) {
+    margin: 0 0 0 5px;
+  }
 }
