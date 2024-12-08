@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkpersonal_page=self.webpackChunkpersonal_page||[]).push([[623],{8623:function(e,n,t){t.r(n);var r=t(184);n.default=function(){return(0,r.jsx)("div",{style:{color:"#fff",fontSize:"30px",width:"100%",height:"300px",display:"flex",justifyContent:"center",alignItems:"center"},children:"[ \ud83d\udc32 Here be dragons \ud83d\udc32 ]"})}}}]);
-//# sourceMappingURL=623.0ee597cc.chunk.js.map
