@@ -5,9 +5,13 @@ export const ProjectCard = ({ project }) => {
   return (
     <div className="project_card">
       <h3 className="card_title">
-        <a href={project.appLink} target="_blank" rel="noreferrer">
-          {project.title}
-        </a>
+        {project.appLink ? (
+          <a href={project.appLink} target="_blank" rel="noreferrer">
+            {project.title}
+          </a>
+        ) : (
+          <span>{project.title}</span>
+        )}
       </h3>
       <img src={project.img} alt={project.title} className="card_image" />
       <div className="tech_stack_wraper">
@@ -34,14 +38,18 @@ export const ProjectCard = ({ project }) => {
         </div>
       )}
       <div className="clickable_area">
-        <a
-          href={project.appLink}
-          target="_blank"
-          rel="noreferrer"
-          className="page_link"
-        >
-          {''}
-        </a>
+        {project.appLink ? (
+          <a
+            href={project.appLink}
+            target="_blank"
+            rel="noreferrer"
+            className="page_link"
+          >
+            {''}
+          </a>
+        ) : (
+          <span>{''}</span>
+        )}
       </div>
       <p className="card_description">{project.description}</p>
     </div>
