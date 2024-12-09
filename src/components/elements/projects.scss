@@ -6,6 +6,11 @@
   width: fit-content;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.535);
   position: relative;
+  @media screen and (max-width: 650px) {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .card_title {
@@ -77,9 +82,18 @@
   height: 58px;
   overflow: hidden;
   font-size: 15px;
+  @media screen and (max-width: 650px) {
+    letter-spacing: -0.3px;
+    word-spacing: -1px;
+  }
 }
 
 .page_link {
   width: 100%;
   height: 100%;
+}
+
+.card_image {
+  width: 100%;
+  height: 360px;
 }

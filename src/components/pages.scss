@@ -30,6 +30,10 @@ div.MuiPaper-root {
   gap: max(2vw, 2vh);
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 18px;
+  @media screen and (max-width: 650px) {
+    margin-top: 10px;
+  }
 }
 
 .certificates_gallery {

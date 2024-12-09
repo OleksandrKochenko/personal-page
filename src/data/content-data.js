@@ -54,3 +54,41 @@ export const services = [
     ],
   },
 ];
+
+export const interests = [
+  {
+    id: '8d4f2a1e',
+    heading: 'Volunteering and Donation',
+    list: [
+      "Committee member of the Ukrainian-Canadian Association 'Tryzub': organising events, selling souvenirs to support the Armed Forces of Ukraine",
+      'Assisting homeless animals: treatment, rehabilitation, and finding new homes',
+      'Sponsoring Ukrainian-language educational YouTube channels',
+    ],
+    imgs: [],
+  },
+  {
+    id: '2a1e8d4f',
+    heading: 'Activities and Sports',
+    list: ['Hiking, climbing, rafting, skiing', 'Fishing, cycling, jogging'],
+    imgs: [],
+  },
+  {
+    id: '5c3b9e3d',
+    heading: 'Music and Art',
+    list: [
+      'Hard rock, heavy metal',
+      'History, local lore',
+      "Theodor Kittelson's visual art",
+    ],
+    imgs: [],
+  },
+  {
+    id: '1e4d5c3b',
+    heading: 'Literature and Movies',
+    list: [
+      'Historical novels, fantasy, science fiction',
+      'Nature documentaries',
+    ],
+    imgs: [],
+  },
+];

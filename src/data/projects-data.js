@@ -60,6 +60,31 @@ export const projects = [
     ],
   },
   {
+    id: 'b415df56-c2c0-4347-91ed-b04391e53573',
+    title: 'Private tours of Rome Landing Page',
+    type: 'COM',
+    scope: 'FRONT',
+    description:
+      'The landing page for private tours of Rome and its surroundings: a frontend project with a responsive design',
+    appLink: 'https://www.olhaitaly.com/',
+    codeLink: '',
+    img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1733708313/PersonalPage/images/olhainrome_vexpxs.jpg',
+    techStack: [
+      {
+        name: 'React',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706562092/PersonalPage/icons/react-svgrepo-com_lotxms.svg',
+      },
+      {
+        name: 'Tailwind',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1730167535/PersonalPage/icons/tailwind_votqrc.svg',
+      },
+      {
+        name: 'Vercel',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706904723/PersonalPage/icons/vercel-logo-svgrepo-com_xobmio.svg',
+      },
+    ],
+  },
+  {
     id: 'a6749e4f8fd8',
     title: 'Tetris Game',
     type: 'PET',
@@ -197,6 +222,76 @@ export const projects = [
       {
         name: 'Vercel',
         img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706904723/PersonalPage/icons/vercel-logo-svgrepo-com_xobmio.svg',
+      },
+    ],
+  },
+  {
+    id: '97f93efd87b1',
+    title: 'Web Shop Admin Panel',
+    type: 'COM',
+    scope: 'FULL',
+    description:
+      'The admin panel offers different access levels and advanced functionality, allowing to manage users, control permissions and more',
+    appLink: '',
+    codeLink: '',
+    img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1733711028/PersonalPage/images/dashboard_sq_zpihgx.jpg',
+    techStack: [
+      {
+        name: 'Next Js',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1733711635/PersonalPage/icons/next-js-svgrepo-com_s5rlpg.svg',
+      },
+
+      {
+        name: 'Tailwind',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1730167535/PersonalPage/icons/tailwind_votqrc.svg',
+      },
+      {
+        name: 'TypeScript',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1707652230/PersonalPage/icons/typescript-16-svgrepo-com_k2svcr.svg',
+      },
+      {
+        name: 'Graphql',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1733710132/PersonalPage/icons/graphql-svgrepo-com_c96ybx.svg',
+      },
+
+      {
+        name: 'Nginx',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1733710265/PersonalPage/icons/nginx-svgrepo-com_xb6q25.svg',
+      },
+    ],
+  },
+  {
+    id: 'e34c1242-aa8f-4cdb-94e8-886fcebfb4b6',
+    title: 'Online Store Management System',
+    type: 'COM',
+    scope: 'FULL',
+    description:
+      'The authorized system to manage customer orders, create special offers, send invoices, generate statistics, and more',
+    appLink: 'https://www.sparelys.no/',
+    codeLink: '',
+    img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1733709799/PersonalPage/images/main-quotes_sq_uyl4ph.jpg',
+    techStack: [
+      {
+        name: 'React',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706562092/PersonalPage/icons/react-svgrepo-com_lotxms.svg',
+      },
+
+      {
+        name: 'Tailwind',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1730167535/PersonalPage/icons/tailwind_votqrc.svg',
+      },
+      {
+        name: 'TypeScript',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1707652230/PersonalPage/icons/typescript-16-svgrepo-com_k2svcr.svg',
+      },
+      {
+        name: 'Graphql',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1733710132/PersonalPage/icons/graphql-svgrepo-com_c96ybx.svg',
+      },
+
+      {
+        name: 'Nginx',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1733710265/PersonalPage/icons/nginx-svgrepo-com_xb6q25.svg',
       },
     ],
   },

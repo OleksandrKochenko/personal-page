@@ -1,19 +1,22 @@
+import { interests } from 'data/content-data';
+
 const InterestsPage = () => {
   return (
-    <div
-      style={{
-        color: '#fff',
-        fontSize: '30px',
-        //height: '100vh',
-        width: '100%',
-        height: '300px',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      [ 🐲 Here be dragons 🐲 ]
-    </div>
+    <ul>
+      {interests.map(el => (
+        <li className="services_block" key={el.id}>
+          <h3 className="section_title services_title">{el.heading}</h3>
+
+          <ul className="services_list">
+            {el.list.map((el, idx) => (
+              <li key={idx} className="services_item">
+                {el}
+              </li>
+            ))}
+          </ul>
+        </li>
+      ))}
+    </ul>
   );
 };
 
