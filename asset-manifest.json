@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/personal-page/static/css/main.b66716df.css",
-    "main.js": "/personal-page/static/js/main.e0a3cf23.js",
+    "main.js": "/personal-page/static/js/main.32029f9f.js",
     "static/css/629.cfc2c54f.chunk.css": "/personal-page/static/css/629.cfc2c54f.chunk.css",
-    "static/js/629.da5be8e4.chunk.js": "/personal-page/static/js/629.da5be8e4.chunk.js",
-    "static/css/889.32ad844f.chunk.css": "/personal-page/static/css/889.32ad844f.chunk.css",
-    "static/js/889.f8737784.chunk.js": "/personal-page/static/js/889.f8737784.chunk.js",
-    "static/css/442.2d3a0fc6.chunk.css": "/personal-page/static/css/442.2d3a0fc6.chunk.css",
-    "static/js/442.7f67361e.chunk.js": "/personal-page/static/js/442.7f67361e.chunk.js",
-    "static/css/441.2d3a0fc6.chunk.css": "/personal-page/static/css/441.2d3a0fc6.chunk.css",
-    "static/js/441.638e6874.chunk.js": "/personal-page/static/js/441.638e6874.chunk.js",
-    "static/js/798.3f90121b.chunk.js": "/personal-page/static/js/798.3f90121b.chunk.js",
-    "static/js/139.1d0fb31a.chunk.js": "/personal-page/static/js/139.1d0fb31a.chunk.js",
+    "static/js/629.316c60df.chunk.js": "/personal-page/static/js/629.316c60df.chunk.js",
+    "static/css/61.9a3c0c69.chunk.css": "/personal-page/static/css/61.9a3c0c69.chunk.css",
+    "static/js/61.87bcb588.chunk.js": "/personal-page/static/js/61.87bcb588.chunk.js",
+    "static/css/623.b3bc8f1b.chunk.css": "/personal-page/static/css/623.b3bc8f1b.chunk.css",
+    "static/js/623.219cf7ea.chunk.js": "/personal-page/static/js/623.219cf7ea.chunk.js",
+    "static/css/441.b3bc8f1b.chunk.css": "/personal-page/static/css/441.b3bc8f1b.chunk.css",
+    "static/js/441.b7d6800d.chunk.js": "/personal-page/static/js/441.b7d6800d.chunk.js",
+    "static/js/798.4d969da9.chunk.js": "/personal-page/static/js/798.4d969da9.chunk.js",
     "static/media/whatsap-qr.jpg": "/personal-page/static/media/whatsap-qr.3e842ebd0eb80fb9bb8b.jpg",
     "static/media/postgresql-svgrepo-com.svg": "/personal-page/static/media/postgresql-svgrepo-com.9aed68683d15cfc3c3fd8ddf1d89ff4e.svg",
     "static/media/cloudinary-svgrepo-com.svg": "/personal-page/static/media/cloudinary-svgrepo-com.f7d90ef63352eaac1d4bc604b1cb938c.svg",
@@ -42,20 +41,19 @@
     "static/media/tailwind-svgrepo-com.svg": "/personal-page/static/media/tailwind-svgrepo-com.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/vercel-logo-svgrepo-com.svg": "/personal-page/static/media/vercel-logo-svgrepo-com.a683396ea86d714691fe74275340f219.svg",
     "main.b66716df.css.map": "/personal-page/static/css/main.b66716df.css.map",
-    "main.e0a3cf23.js.map": "/personal-page/static/js/main.e0a3cf23.js.map",
+    "main.32029f9f.js.map": "/personal-page/static/js/main.32029f9f.js.map",
     "629.cfc2c54f.chunk.css.map": "/personal-page/static/css/629.cfc2c54f.chunk.css.map",
-    "629.da5be8e4.chunk.js.map": "/personal-page/static/js/629.da5be8e4.chunk.js.map",
-    "889.32ad844f.chunk.css.map": "/personal-page/static/css/889.32ad844f.chunk.css.map",
-    "889.f8737784.chunk.js.map": "/personal-page/static/js/889.f8737784.chunk.js.map",
-    "442.2d3a0fc6.chunk.css.map": "/personal-page/static/css/442.2d3a0fc6.chunk.css.map",
-    "442.7f67361e.chunk.js.map": "/personal-page/static/js/442.7f67361e.chunk.js.map",
-    "441.2d3a0fc6.chunk.css.map": "/personal-page/static/css/441.2d3a0fc6.chunk.css.map",
-    "441.638e6874.chunk.js.map": "/personal-page/static/js/441.638e6874.chunk.js.map",
-    "798.3f90121b.chunk.js.map": "/personal-page/static/js/798.3f90121b.chunk.js.map",
-    "139.1d0fb31a.chunk.js.map": "/personal-page/static/js/139.1d0fb31a.chunk.js.map"
+    "629.316c60df.chunk.js.map": "/personal-page/static/js/629.316c60df.chunk.js.map",
+    "61.9a3c0c69.chunk.css.map": "/personal-page/static/css/61.9a3c0c69.chunk.css.map",
+    "61.87bcb588.chunk.js.map": "/personal-page/static/js/61.87bcb588.chunk.js.map",
+    "623.b3bc8f1b.chunk.css.map": "/personal-page/static/css/623.b3bc8f1b.chunk.css.map",
+    "623.219cf7ea.chunk.js.map": "/personal-page/static/js/623.219cf7ea.chunk.js.map",
+    "441.b3bc8f1b.chunk.css.map": "/personal-page/static/css/441.b3bc8f1b.chunk.css.map",
+    "441.b7d6800d.chunk.js.map": "/personal-page/static/js/441.b7d6800d.chunk.js.map",
+    "798.4d969da9.chunk.js.map": "/personal-page/static/js/798.4d969da9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b66716df.css",
-    "static/js/main.e0a3cf23.js"
+    "static/js/main.32029f9f.js"
   ]
 }
