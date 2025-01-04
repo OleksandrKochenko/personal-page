@@ -85,6 +85,31 @@ export const projects = [
     ],
   },
   {
+    id: '76b1e4ec2da4',
+    title: 'Multicook Edmonton Landing Page',
+    type: 'COM',
+    scope: 'FRONT',
+    description:
+      'The Landing Page for Multicook franchise branch. Frontend project with menu navigation and recipes gallery',
+    appLink: 'https://www.multicookedmonton.ca/',
+    codeLink: '',
+    img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1736018937/PersonalPage/images/MC_Edmonton_l6ao5r.jpg',
+    techStack: [
+      {
+        name: 'React',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706562092/PersonalPage/icons/react-svgrepo-com_lotxms.svg',
+      },
+      {
+        name: 'Tailwind',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1730167535/PersonalPage/icons/tailwind_votqrc.svg',
+      },
+      {
+        name: 'Vercel',
+        img: 'https://res.cloudinary.com/dvloxectq/image/upload/v1706904723/PersonalPage/icons/vercel-logo-svgrepo-com_xobmio.svg',
+      },
+    ],
+  },
+  {
     id: 'a6749e4f8fd8',
     title: 'Tetris Game',
     type: 'PET',
