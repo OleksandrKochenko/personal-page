@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/personal-page/static/css/main.b66716df.css",
-    "main.js": "/personal-page/static/js/main.e7a54201.js",
+    "main.js": "/personal-page/static/js/main.9dd01cb0.js",
     "static/css/629.cfc2c54f.chunk.css": "/personal-page/static/css/629.cfc2c54f.chunk.css",
     "static/js/629.316c60df.chunk.js": "/personal-page/static/js/629.316c60df.chunk.js",
     "static/css/61.9a3c0c69.chunk.css": "/personal-page/static/css/61.9a3c0c69.chunk.css",
-    "static/js/61.250b781f.chunk.js": "/personal-page/static/js/61.250b781f.chunk.js",
+    "static/js/61.97c37fdf.chunk.js": "/personal-page/static/js/61.97c37fdf.chunk.js",
     "static/css/623.b3bc8f1b.chunk.css": "/personal-page/static/css/623.b3bc8f1b.chunk.css",
     "static/js/623.219cf7ea.chunk.js": "/personal-page/static/js/623.219cf7ea.chunk.js",
     "static/css/441.b3bc8f1b.chunk.css": "/personal-page/static/css/441.b3bc8f1b.chunk.css",
@@ -41,11 +41,11 @@
     "static/media/tailwind-svgrepo-com.svg": "/personal-page/static/media/tailwind-svgrepo-com.973c73e85d4daa24b257ba20298716c4.svg",
     "static/media/vercel-logo-svgrepo-com.svg": "/personal-page/static/media/vercel-logo-svgrepo-com.a683396ea86d714691fe74275340f219.svg",
     "main.b66716df.css.map": "/personal-page/static/css/main.b66716df.css.map",
-    "main.e7a54201.js.map": "/personal-page/static/js/main.e7a54201.js.map",
+    "main.9dd01cb0.js.map": "/personal-page/static/js/main.9dd01cb0.js.map",
     "629.cfc2c54f.chunk.css.map": "/personal-page/static/css/629.cfc2c54f.chunk.css.map",
     "629.316c60df.chunk.js.map": "/personal-page/static/js/629.316c60df.chunk.js.map",
     "61.9a3c0c69.chunk.css.map": "/personal-page/static/css/61.9a3c0c69.chunk.css.map",
-    "61.250b781f.chunk.js.map": "/personal-page/static/js/61.250b781f.chunk.js.map",
+    "61.97c37fdf.chunk.js.map": "/personal-page/static/js/61.97c37fdf.chunk.js.map",
     "623.b3bc8f1b.chunk.css.map": "/personal-page/static/css/623.b3bc8f1b.chunk.css.map",
     "623.219cf7ea.chunk.js.map": "/personal-page/static/js/623.219cf7ea.chunk.js.map",
     "441.b3bc8f1b.chunk.css.map": "/personal-page/static/css/441.b3bc8f1b.chunk.css.map",
@@ -54,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.b66716df.css",
-    "static/js/main.e7a54201.js"
+    "static/js/main.9dd01cb0.js"
   ]
 }
