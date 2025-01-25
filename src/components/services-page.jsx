@@ -1,6 +1,8 @@
 import { Icon } from '@iconify/react';
 import { services } from 'data/content-data';
 import './pages.scss';
+import '../index.css';
+import '../main.scss';
 
 const ServicesPage = () => {
   return (
