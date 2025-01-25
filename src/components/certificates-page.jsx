@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Modal } from '@mui/material';
 import { certificates } from 'data/certificates-data';
 import './pages.scss';
+import '../index.css';
+import '../main.scss';
 
 const CertificatesPage = () => {
   const vw = window.innerWidth;

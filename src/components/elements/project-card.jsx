@@ -1,5 +1,7 @@
 import Tooltip from './tooltip';
 import './projects.scss';
+import '../../index.css';
+import '../../main.scss';
 
 export const ProjectCard = ({ project }) => {
   return (

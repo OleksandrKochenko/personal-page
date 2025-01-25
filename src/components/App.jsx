@@ -2,6 +2,8 @@ import { lazy, useEffect, useState } from 'react';
 import { LineLoader } from './loaders/line-loader';
 import { Layout } from './layout';
 import { Route, Routes } from 'react-router-dom';
+import '../index.css';
+import '../main.scss';
 
 const HomePage = lazy(() => import('./home-page'));
 const ProjectsPage = lazy(() => import('./projects-page'));

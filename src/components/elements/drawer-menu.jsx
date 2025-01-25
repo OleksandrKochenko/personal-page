@@ -1,6 +1,8 @@
 import { Drawer } from '@mui/material';
-import './drawer.menu.scss';
 import { MenuList } from './menu-list';
+import './drawer.menu.scss';
+import '../../index.css';
+import '../../main.scss';
 
 export const DrawerMenu = ({ open, onClose }) => {
   return (

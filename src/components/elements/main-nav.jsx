@@ -7,6 +7,8 @@ import { MenuList } from './menu-list';
 import { DrawerContacts } from './drawer-contacts';
 import connect from '../../img/customer-support-11322.svg';
 import './main.nav.scss';
+import '../../index.css';
+import '../../main.scss';
 
 export const MainNav = () => {
   const { width: screenWidth } = useWindowSizes();

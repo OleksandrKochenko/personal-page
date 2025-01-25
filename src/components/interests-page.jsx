@@ -1,4 +1,7 @@
 import { interests } from 'data/content-data';
+import './pages.scss';
+import '../index.css';
+import '../main.scss';
 
 const InterestsPage = () => {
   return (

@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { ChevronsRight } from 'react-feather';
 import './home.page.scss';
+import '../../index.css';
+import '../../main.scss';
 
 export const ServicesShort = () => {
   return (

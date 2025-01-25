@@ -9,13 +9,7 @@ const ServicesPage = () => {
         <li className="services_block" key={idx}>
           <h3 className="section_title services_title">{el.heading}</h3>
           <div className="services_content">
-            <Icon
-              className="services_icon"
-              style={{
-                fontSize: el.icon === 'hugeicons:web-validation' ? 124 : '',
-              }}
-              icon={el.icon}
-            />
+            <Icon className="services_icon" icon={el.icon} />
             <ul className="services_list">
               {el.list.map((el, idx) => (
                 <li key={idx} className="services_item">

@@ -1,5 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import './main.nav.scss';
+import '../../index.css';
+import '../../main.scss';
 
 export const MenuList = ({ onClose }) => {
   return (

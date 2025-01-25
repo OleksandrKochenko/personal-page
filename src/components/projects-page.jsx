@@ -1,6 +1,8 @@
 import { ProjectCard } from './elements/project-card';
 import { projects } from 'data/projects-data';
 import './pages.scss';
+import '../index.css';
+import '../main.scss';
 
 const ProjectsPage = () => {
   return (

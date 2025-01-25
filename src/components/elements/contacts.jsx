@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import {
   GitHub,
   GradingOutlined,
@@ -11,7 +12,8 @@ import { Modal, Tooltip } from '@mui/material';
 import { useState } from 'react';
 import whatsapp from '../../img/whatsap-qr.jpg';
 import './contacts.scss';
-import { Link } from 'react-router-dom';
+import '../../index.css';
+import '../../main.scss';
 
 export const Contacts = () => {
   const [openModal, setOpenModal] = useState(false);

@@ -48,7 +48,7 @@ export const services = [
     heading: 'Consultation & Support Services',
     icon: 'hugeicons:web-validation',
     list: [
-      'Consultation services related to online presence, including hosting, domain names, Google Business accounts, and other foundational web tools',
+      'Consultation services related to online presence, including hosting, domain names, Google Business accounts etc.',
       'Documentation and functional requirement creation to support smooth project workflows and user understanding',
       'Website maintenance and support to ensure long-term performance, security, and updates',
     ],

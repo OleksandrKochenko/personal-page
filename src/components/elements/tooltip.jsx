@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import './tooltip.scss';
+import '../../index.css';
+import '../../main.scss';
 
 export default function Tooltip({ children, text, ...rest }) {
   const [show, setShow] = useState(false);

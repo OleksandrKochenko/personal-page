@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { ChevronsDown, ChevronsUp } from 'react-feather';
 import techStack from '../../data/tech-stack-data';
 import './home.page.scss';
+import '../../index.css';
+import '../../main.scss';
 
 export const TechStack = () => {
   const [expanded, setExpanded] = useState(false);

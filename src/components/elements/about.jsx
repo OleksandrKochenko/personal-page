@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { ChevronsLeft } from 'react-feather';
 import { DrawerContacts } from './drawer-contacts';
 import './home.page.scss';
+import '../../index.css';
+import '../../main.scss';
 
 export const About = () => {
   const [contactsSidebar, setContactsSidebar] = useState(false);
